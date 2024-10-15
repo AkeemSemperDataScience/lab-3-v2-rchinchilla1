@@ -11,7 +11,7 @@ def lab3Question1(number, cutoff):
         return True
     else:
         return False
-   
+"""  
 number = input('Enter frst number:  ')
 print(number)
 cutoff = input('Enter second number: ')
@@ -20,7 +20,7 @@ if lab3Question1(number, cutoff)== True:
     print(number, " is less than ", cutoff)
 else:
     print(number, " is not less than ", cutoff) 
-
+"""
 
 def lab3Question2(decimal_number):
     # Take in an argument of a float (decimal) number.
@@ -37,11 +37,11 @@ def lab3Question2(decimal_number):
     else:
         if decimal_number != float():
          return ("invalid")
-
+"""
 decimal_number = float(input("Enter a number:  "))
 print(decimal_number) 
 print(lab3Question2(decimal_number))  
-      
+"""      
 
 def lab3Question3(year):
     # Take in a number that represents a year
@@ -61,9 +61,10 @@ def lab3Question3(year):
         print("19th century")  
     else:
         print( "invalid") 
-
+"""
 year = int(input('Enter a year:  '))
 print(lab3Question3(year))         
+"""
 
 def lab3Question4(number_1, number_2, number_3):
     # Take in three numbers as arguments
@@ -74,13 +75,13 @@ def lab3Question4(number_1, number_2, number_3):
        return max(number_1, number_2, number_3)
     else:
         return None
-           
+"""           
 number_1 = input('Enter the first number:  ')
 number_2 = input('Enter the second number:  ')
 number_3 = input('Enter the third number:  ')  
     
 print (lab3Question4(number_1, number_2, number_3)) 
-
+"""
 
 def lab3Question5(temperature, scale_used):
     # Take in a temperature and the scale that the temperature is in - either "C" for Celsius or "F" for Fahrenheit (capitalized)
@@ -107,11 +108,11 @@ def lab3Question5(temperature, scale_used):
             return ("Solid")
         else:
             return ("Invalid")
-    
+"""    
 scale_used = input("Enter 'C' for Celsius or 'F' for Fahrenheit (capitalized):  ")
 print(scale_used)   
 temperature = int(input("Enter the degrees :"  ))  
 print(temperature)
 print(lab3Question5(temperature, scale_used))   
-
+"""
 
